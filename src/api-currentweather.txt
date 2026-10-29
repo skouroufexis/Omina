@@ -1,0 +1,34 @@
+coord: { lon: 33.3437, lat: 35.14 },
+weather: [
+  {
+    id: 803,
+    main: 'Clouds',
+    description: 'broken clouds',
+    icon: '04n'
+  }
+],
+base: 'stations',
+main: {
+  temp: 283.79,
+  feels_like: 283.18,
+  temp_min: 283.76,
+  temp_max: 284.81,
+  pressure: 1017,
+  humidity: 87
+},
+visibility: 10000,
+wind: { speed: 4.12, deg: 280 },
+clouds: { all: 75 },
+dt: 1708285408,
+sys: {
+  type: 1,
+  id: 6370,
+  country: 'CY',
+  sunrise: 1708230634,
+  sunset: 1708270257
+},
+timezone: 7200,
+id: 146268,
+name: 'Nicosia',
+cod: 200
+}

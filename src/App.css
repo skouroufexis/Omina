@@ -1,0 +1,207 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  height: 100px;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  height: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  font-family: "Anek Telugu", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 98.7;
+}
+
+.logo {
+  height: 40vmin;
+  height: 100px;
+  pointer-events: none;
+}
+.margin-v-auto {margin-top: auto; margin-bottom: auto;}
+
+#mainBody { height: 70vh;
+  background-image: url('./background.jpg');
+  
+  background-size: cover;
+}
+
+
+
+#topMenu{display: flex;
+           flex-direction: row;
+           justify-content: space-around;   
+
+           /* background-color: rgb(32, 178, 170,1); */
+  }
+
+
+#dayTimes {
+  height: 20vh; overflow-y: scroll;
+  /* background-image: url('./background.jpg');
+  background-size: cover; */
+
+}
+
+
+
+
+
+
+
+
+#weekDays {
+  height: 100vh;  
+  
+}
+
+#locations {
+  height: 100vh;  
+}
+
+body {
+  background-image: url('./background2.jpg');
+  background-size: cover;
+  
+  
+}
+
+.transition_slide-left{
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+.transition_slide-right{
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.transition_slide-up{
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+.transition_opacity{
+  opacity: 0;
+}
+
+.transition {
+  transition: opacity 0.2s,transform 0.2s;
+}
+
+.unselected {opacity: 0.3;}
+
+.highlighted {background-color: rgb(32, 178, 170,0.9);}
+
+.smallIcon{width: 15%;}
+
+#loading {width: 5%;}
+
+.search {border: none;
+         border-bottom: solid rgba(0,0,0,0.1) thin;
+    }
+
+.search:focus {outline: none;}
+
+
+.btn-lightgreen{
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, lightseagreen , rgb(32, 178, 170,0.5),white);  
+}
+
+.btn-lightgreen:hover {
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, lightseagreen , rgb(32, 178, 170,0.5),white);
+  
+}
+
+.btn-primary {background-color: lightseagreen; border: none;}
+.btn-primary:hover {background-color: lightseagreen; border: none;}
+
+
+.btn-primary2 {background-color: rgb(32, 178, 170,0.2); 
+              color: rgba(0,0,0,0.7); 
+              
+              border: none;
+            }
+
+.btn-primary2:hover {background-color: rgb(32, 178, 170,0.2); 
+              color: rgba(0,0,0,0.7); 
+              
+              border: none;
+            }
+
+.membrane {
+  background-color: rgb(255, 255, 255,0.9); 
+}
+
+.membrane1 {  
+  background-color: rgba(0,0,0,0.2);
+}
+
+.membrane2 {
+  background-color: rgb(255, 255, 255,0.5); 
+}
+
+.membrane3 {
+  background-image: linear-gradient(to right, rgb(255, 255, 255,0.1),white,rgb(255, 255, 255,0.1));
+}
+
+.btn-main {
+          background-image: linear-gradient(to right, rgb(255, 255, 255,0.1),white,white,rgb(255, 255, 255,0.1));
+
+}
+
+.btn-main:hover {
+  background-image: linear-gradient(to right, rgb(255, 255, 255,0.1),white,white,rgb(255, 255, 255,0.1));
+}
+
+
+
+.white {color: white;}
+.white:hover{color: white;}
+.whitesmoke {color: whitesmoke;}
+.yellow {color: yellow;}
+.black {color: rgba(0,0,0,0.6);}
+.saved {color: lightseagreen;}
+.green {color: lightseagreen;}
+.unsaved {color: black;}
